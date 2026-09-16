@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box; /*make everything fit with the display scale*/
+}
+
+html, body {
+    margin: 0; /* ขอบสีขาวรอบหน้าจอ */ 
+    padding: 0; /*ลบระยะห่างภายในขอบหน้าเว็บ*/ /* full screen*/
+    width: 100%; /* full screen*/
+    height: 100%; /* full screen*/
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse; /*รวมเส้นขอบของตารางให้กลายเป็นเส้นขอบเดีjยว*/
+}
+
+td {
+    width: 50%; /*แบ่งครึ่งหน้าเว็บ*/
+    text-align: center; /*ข้อความอยู่ตรงกลาง*/
+    border: 1px solid black;
+}
+
+.cell-1 {
+    background-color: greenyellow;
+}
+
+.cell-2 {
+    background-color: palevioletred;
+}
