@@ -1,0 +1,45 @@
+:root {
+    --bs-primary: rgb(216, 118, 26);
+    --bs-primary-rgb: 216, 118, 26;
+}
+
+#bg-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.portfolio-title {
+    text-shadow: 0 0 12px rgba(255, 255, 255, 0.75),
+        0 0 28px rgba(26, 130, 216, 0.55);
+}
+
+.btn-enter {
+    width: min(100%, 18rem);
+    background-color: #ffffff !important;
+    border: 1px solid #ffffff;
+    color: #171717 !important;
+    margin: 0.35rem;
+    transition: transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease, color 0.25s;
+}
+
+.btn-enter:hover,
+.btn-enter:focus-visible {
+    background-color: #ffffff !important;
+    border-color: #ffffff;
+    color: #ffffff !important;
+    background-color: #bd1a1a !important;
+    transform: translateY(-6px);
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.9),
+        0 0 28px rgba(216, 118, 26, 0.7);
+}
+
+@media (min-width: 768px) {
+    .btn-enter {
+        width: auto;
+    }
+}
