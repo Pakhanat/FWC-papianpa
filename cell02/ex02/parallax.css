@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    font-family: Ariial, sans-serif;
+}
+
+.card{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1 {
+    background-image: url('https://cdn.royalcanin-weshare-online.io/q1ePnI0BBKJuub5qERxE/v3/pembroke-welsh-corgi-puppy-with-german-shepherd-dog-in-autumn-16-9?w=1440&fm=jpg&auto=format%2Ccompress');
+}
+.img2 {
+    background-image: url('https://people.com/thmb/HoEbvqI-xf2OSwQqKQlzuxyV_RY=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1024x180:1026x182):format(webp)/labrador-retriever-031825-4ac72cce83964cf6b5f3867011aaaf13.jpg');
+}
+
+.mid-box{
+    background-color: black;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.text{
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.6);
+    padding: 12px 24px;
+    font-size: 20px;
+    text-align: center;
+}
